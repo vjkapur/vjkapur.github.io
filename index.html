@@ -1,34 +1,34 @@
 <html>
-	<head>
-	 <title>
-	 VJ Kapur
-	 </title>
-	 <meta name="description" content="Life, times, words, and music of VJ Kapur.">
-	 <link rel=stylesheet href="index.css" type="text/css">
-
-		<!-- Google Analytics -->
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-39781045-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-    			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-	</head>
-	<body>
-
-     <center><img src="logo.jpg" border="0"><br>
-     You know, doing what I do.<p>
-     <div>
-     <b>consulting: </b><a href="http://intrical.us">company</a>/<a href="http://www.linkedin.com/pub/vj-kapur/19/70/310/">linkedin</a><br>
-     <b>music: </b><a href="http://strangevictories.com">band</a>/<a href="http://vjkapur.bandcamp.com">solo</a>/<a href="http://thecascade.bandcamp.com">past</a>/<a href="http://flowersontherazorwire.bandcamp.com">paster</a>/<a href="http://sequenceerase.bandcamp.com">pastest</a><br>
-     <b>coding: </b><a href="https://github.com/vjkapur">github</a><br>
-     <b>social: </b><a href="https://facebook.com/vkapur">facebook</a>/<a href="https://twitter.com/vjkapur">twitter</a>/<a href="https://medium.com/@VJKapur">medium</a>
-     </div>
-
-     </body>
+<head>
+<title>
+VJ Kapur
+</title>
+<meta name="description" content="Life, times, words, and music of VJ Kapur.">
+<link rel=stylesheet href="index.css" type="text/css"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/tracker.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+	$(function() {
+		$("#consulting").fadeIn(250, function() {
+			$("#music").fadeIn(500, function() {
+				$("#coding").fadeIn(750, function() {
+					$("#social").fadeIn(1000);
+				});
+			});
+		});
+	});
+//]]>
+</script>
+</head>
+<body>
+<img src="logo.jpg" border="0"><br>
+You know, doing what I do.<p>
+<div id="content">
+<span class="content-line" id="consulting"><b>consulting: </b><a href="http://intrical.us">company</a>/<a href="http://www.linkedin.com/pub/vj-kapur/19/70/310/">linkedin</a><br></span>
+<span class="content-line" id="music"><b>music: </b><a href="http://strangevictories.com">band</a>/<a href="http://vjkapur.bandcamp.com">solo</a>/<a href="http://thecascade.bandcamp.com">past</a>/<a href="http://flowersontherazorwire.bandcamp.com">paster</a>/<a href="http://sequenceerase.bandcamp.com">pastest</a><br></span>
+<span class="content-line" id="coding"><b>coding: </b><a href="https://github.com/vjkapur">github</a><br></span>
+<span class="content-line" id="social"><b>social: </b><a href="https://facebook.com/vkapur">facebook</a>/<a href="https://twitter.com/vjkapur">twitter</a>/<a href="https://medium.com/@VJKapur">medium</a></span>
+</div>
+</body>
 </html>

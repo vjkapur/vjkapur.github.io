@@ -1,24 +1,36 @@
-<style>
-<!--
+html, body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
 
-a:active {text-decoration: none; color: #336699;}
-a:visited {text-decoration: none; color: #336699;}
-a:link {text-decoration: none; color: #336699;}
-a:hover {text-decoration: none; color: #0066FF;}
+a:active, a:visited, a:link {
+  text-decoration: none;
+  color: #336699;
+}
 
-img {border: 0;}
+a:hover {
+  text-decoration: none;
+  color: #0066FF;
+}
 
-body {background-color: #c0c0c0; font-family: times new roman; font-size: 12pt; color: black;}
+img {
+  border: 0;
+}
 
-td.work {background-color: black; font-family: times new roman; font-size: 12pt; color: silver; vertical-align: top;}
+body {
+  background-color: #c0c0c0;
+  font-family: 'Source Sans Pro';
+  font-size: 14pt;
+  color: black;
+}
 
-td.externalref{background-color: black; font-family: times new roman; font-size: 12pt; color: silver; vertical-align: middle;}
+#content{
+  width: 320px;
+  margin: 0 auto;
+  text-align: left;
+}
 
-td.twittercontent{background-color: black; font-family: times new roman; font-size: 10pt; color: silver; vertical-align: top;}
-
-ul.twitter{list-style: none; font-family: times new roman; font-size: 10pt; margin: 0px; padding: 0px;}
-
-div{width: 300px; margin:0 auto; text-align: left;}
-
--->
-</style>
+.content-line {
+  display: none;
+}
