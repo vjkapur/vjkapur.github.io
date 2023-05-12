@@ -1,0 +1,4 @@
+Find me somewhere else.
+<!--span class="content-line" id="consulting"><b>consulting: </b><a href="http://intrical.us">company</a>/<a href="http://www.linkedin.com/pub/vj-kapur/19/70/310/">linkedin</a>/<a href="https://github.com/vjkapur">github</a><br></span>
+<span class="content-line" id="music"><b>music: </b><a href="http://strangevictories.com">band</a>/<a href="http://vjkapur.bandcamp.com">solo</a>/<a href="http://thecascade.bandcamp.com">past</a>/<a href="http://flowersontherazorwire.bandcamp.com">paster</a>/<a href="http://sequenceerase.bandcamp.com">pastest</a><br></span>
+<span class="content-line" id="social"><b>social: </b><a href="https://facebook.com/vkapur">facebook</a>/<a href="https://twitter.com/vjkapur">twitter</a>/<a href="https://medium.com/@VJKapur">medium</a>/<a href="https://instagram.com/vjkapur">instagram</a></span-->
